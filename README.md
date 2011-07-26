@@ -6,7 +6,7 @@ See [/examples](https://github.com/CrabDude/node-amd/tree/master/examples).
 ### Example1
 
 	// bar.js
-	var define = require('../lib/AMD').define;
+	var define = require('node-amd').define;
 	
 	define(['http','path','fs'],function(http,path,fs) {
 		return {
@@ -17,7 +17,7 @@ See [/examples](https://github.com/CrabDude/node-amd/tree/master/examples).
 ### Example2
 
 	// baz.js
-	var define = require('../lib/node-amd').define;
+	var define = require('node-amd').define;
 	
 	define({
 		wtf: 'yeehaw'
