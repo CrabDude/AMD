@@ -1,0 +1,24 @@
+{
+	"name" : "AMD",
+	"version" : "0.0.1",
+	"description" : "AMD (Asynchronous Module Definition) support for node.js, specifically define()",
+	"homepage": "http://github.com/CrabDude/amd",
+	"repository": {
+		"type" : "git",
+		"url" : "git://github.com/CrabDude/amd.git"
+	},
+	"bugs" : { "web" : "http://github.com/CrabDude/AMD/issues" },
+	"author" : "Adam Crabtree <dude@noderiety.com> (http://noderiety.com)",
+	"main" : "lib/amd",
+	"directories" : { "lib" : "./lib/" },
+	"engines" : { "node" : ">=0.2.0" },
+	"licenses" : [{
+		"type" : "MIT",
+		"url" : "http://www.opensource.org/licenses/mit-license.html"
+	}],
+	"keywords": [
+		"amd",
+		"define",
+		"module"
+	]
+}
