@@ -1,6 +1,6 @@
 {
 	"name" : "AMD",
-	"version" : "0.0.1",
+	"version" : "0.0.2",
 	"description" : "AMD (Asynchronous Module Definition) support for node.js, specifically define()",
 	"homepage": "http://github.com/CrabDude/amd",
 	"repository": {

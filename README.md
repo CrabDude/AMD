@@ -3,6 +3,10 @@
 
 See [/examples](https://github.com/CrabDude/node-amd/tree/master/examples).
 
+### Install
+
+	npm install node-apm
+	
 ### Example1
 
 	// bar.js
