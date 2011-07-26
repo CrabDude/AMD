@@ -5,12 +5,14 @@ See [/examples](https://github.com/CrabDude/node-amd/tree/master/examples).
 
 ### Install
 
-	npm install node-apm
+	npm install AMD
 	
 ### Example1
 
 	// bar.js
-	var define = require('node-amd').define;
+	if (typeof module !== 'undefined' && "exports" in module && typeof define !== 'function') {
+		var define = require('AMD').define;
+	}
 	
 	define(['http','path','fs'],function(http,path,fs) {
 		return {
@@ -21,8 +23,10 @@ See [/examples](https://github.com/CrabDude/node-amd/tree/master/examples).
 ### Example2
 
 	// baz.js
-	var define = require('node-amd').define;
-	
+	if (typeof module !== 'undefined' && "exports" in module && typeof define !== 'function') {
+		var define = require('AMD').define;
+	}
+
 	define({
 		wtf: 'yeehaw'
 	});
